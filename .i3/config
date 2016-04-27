@@ -221,8 +221,8 @@ exec_always xrandr --output VIRTUAL1 --off --output VGA1 --mode 1920x1200 --pos 
 
 exec --no-startup-id feh --bg-scale ~/Pictures/wallpaper.png #~/Pictures/stockholm_night-wallpaper-3840x1200.png 
 exec --no-startup-id ibus-daemon
-exec --no-startup-id autocutsel -selection CLIPBOARD -fork
-exec --no-startup-id autocutsel -selection PRIMARY -fork
+#exec --no-startup-id autocutsel -selection CLIPBOARD -fork
+#exec --no-startup-id autocutsel -selection PRIMARY -fork
 
 set $bg-color #2f343f
 set $inactive-bg-color #2f343f
