@@ -124,3 +124,13 @@ fi
 
 . ~/git-ps.sh
 eval $(thefuck --alias)
+
+export NVM_DIR="/home/ahineya/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+export DE=gnome
+
+export PATH=${PATH}:~/android-sdk-linux/tools
+export PATH=${PATH}:~/android-sdk-linux/platform-tools
