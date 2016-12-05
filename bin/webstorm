@@ -1,0 +1,3 @@
+#!/bin/bash
+cd ~/Downloads/WebStorm-162.1121.31/bin
+./webstorm.sh

@@ -1,0 +1,18 @@
+#!/bin/bash
+
+case $1 in
+  "tpush"   ) 
+	echo "git push"
+	shift
+	echo $@
+	git push $@
+	;;
+  "tpull"   ) 
+	echo "git pull"
+	shift
+	echo $@
+	git pull $@
+	;;
+  *         ) echo "Try again";;
+esac 
+
