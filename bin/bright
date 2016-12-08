@@ -1,4 +1,11 @@
 #!/bin/bash
 br=$1
+
+if [ $# -eq 0 ]
+  then
+    xrandr --verbose | grep -m 1 -i brightness | cut -f2 -d ' '
+    exit 1
+fi
+
 xrandr --output VGA1 --brightness $br
 xrandr --output DP1 --brightness $br
