@@ -1,1 +1,2 @@
-/home/ahineya/Downloads/Telegram/Telegram
+#!/bin/bash
+gksudo /opt/telegram/Telegram
