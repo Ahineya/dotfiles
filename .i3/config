@@ -201,7 +201,7 @@ bindsym $mod+r mode "resize"
 #}
 
 #-------------------------------------
-# Custom                             |
+# Custom custom                      |
 #-------------------------------------
 
 #new_window pixel 0
@@ -227,6 +227,7 @@ exec --no-startup-id ibus-daemon
 exec --no-startup-id autocutsel -selection CLIPBOARD -fork
 #exec --no-startup-id autocutsel -selection PRIMARY -fork
 exec --no-startup-id ~/.dropbox-dist/dropboxd
+exec --no-startup-id nm-applet &
 
 set $bg-color #2f343f
 set $inactive-bg-color #2f343f
@@ -266,3 +267,5 @@ exec --no-startup-id bright 0.75
 bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -D pulse sset Master 5%+ 
 bindsym XF86AudioLowerVolume exec --no-startup-id amixer -D pulse sset Master 5%-
 bindsym XF86AudioMute exec --no-startup-id amixer -D pulse sset Master toggle 
+
+bindsym XF86TouchpadToggle exec $HOME/bin/toggletouchpad.sh
