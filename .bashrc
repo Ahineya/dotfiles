@@ -134,3 +134,4 @@ export DE=gnome
 
 export PATH=${PATH}:~/android-sdk-linux/tools
 export PATH=${PATH}:~/android-sdk-linux/platform-tools
+export API_ROOT=http://api.casino2.app
