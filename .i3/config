@@ -103,7 +103,7 @@ set $workspace5 "5: Notes"
 set $workspace6 "6"
 set $workspace7 "7: Tor"
 
-set $wallpaper "~/Pictures/stockholm_night-wallpaper-3840x1200.png"
+set $wallpaper "~/Pictures/stockholm_night-wallpaper-1920x1080.jpg"
 
 # switch to workspace
 bindsym $mod+1 workspace $workspace1
