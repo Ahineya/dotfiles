@@ -123,7 +123,6 @@ if ! shopt -oq posix; then
 fi
 
 . ~/git-ps.sh
-eval $(thefuck --alias)
 
 export NVM_DIR="/home/ahineya/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
