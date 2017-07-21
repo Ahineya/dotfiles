@@ -9,4 +9,5 @@ fi
 
 xrandr --output VGA-1 --brightness $br
 #xrandr --output DP1 --brightness $br
-xrandr --output LVDS-1 --brightness $br
+#xrandr --output LVDS-1 --brightness $br
+xrandr --output HDMI-1 --brightness $br
